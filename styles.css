@@ -1,0 +1,27 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 150px 100%;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+header {
+  background-color: white;
+}
+
+aside {
+  background-color: #3b82f6;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  padding: 20px;
+}
+
+main {
+  background: #d1d5db;
+}
